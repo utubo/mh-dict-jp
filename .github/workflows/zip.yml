@@ -27,18 +27,13 @@ jobs:
 
       - name: Archive zip
         run: |
-          zip mh-dict-jp.zip dict/mh-dict-jp.txt
+          zip ~/tmp/mh-dict-jp.zip dict/mh-dict-jp.txt
 
       - name: Create release
         id: create_release
-        uses: actions/create-release@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        uses: ergebnis/.github/actions/github/release/create@1.8.0
         with:
-          tag_name: ${{ github.ref }}
-          release_name: Release ${{ github.ref }}
-          draft: false
-          prerelease: false
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Upload Release Asset
         id: upload-release-asset
@@ -47,7 +42,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./output/mh-dict-jp.zip
+          asset_path: ~/tmp/mh-dict-jp.zip
           asset_name: mh-dict-jp.zip
           asset_content_type: application/zip
 
