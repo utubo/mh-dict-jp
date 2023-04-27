@@ -1,7 +1,7 @@
 ## 辞書ファイル
 |ファイル名    |備考    |
 |--------------|--------|
-|[mh-dict-jp.txt](https://raw.githubusercontent.com/utubo/mh-dict-jp/main/dict/mh-dict-jp.txt)t|公式単語|
+|[mh-dict-jp.txt](https://raw.githubusercontent.com/utubo/mh-dict-jp/main/dict/mh-dict-jp.txt)|公式単語|
 |mh-user-jp.txt|スラング(予定)|
 
 ## ユーザー辞書への追加の仕方
@@ -27,7 +27,7 @@
 7. インポート
 8. `mh_dict_jp.txt`を選択
 
-## 辞書ルール
+## 編集時の辞書ルール
 - カタカナ表記、漢字表記(カタカナ読み)、漢字表記の3つを記載
   ```
   例
@@ -88,4 +88,12 @@
   - https://a-to-monhan.com/2020/12/28/rise-kannji-yomikata/
 
   他多数
+
+## License
+```
+"THE BEER-WARE LICENSE" (Revision 42):
+utubo wrote this file. As long as you retain this notice you
+can do whatever you want with this stuff. If we meet some day, and you think
+this stuff is worth it, you can buy me a beer in return.
+```
 
