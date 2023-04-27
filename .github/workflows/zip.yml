@@ -31,8 +31,7 @@ jobs:
 
       - name: Archive zip
         run: |
-          mkdir ~/tmp
-          zip -r ~/tmp/mh-dict-jp.zip $GITHUB_WORKSPACE/dict/mh-dict-jp.txt
+          zip -r ./mh-dict-jp.zip $GITHUB_WORKSPACE/dict/mh-dict-jp.txt
 
       - name: Create release
         id: create_release
@@ -53,7 +52,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ~/tmp/mh-dict-jp.zip
+          asset_path: ./mh-dict-jp.zip
           asset_name: mh-dict-jp.zip
           asset_content_type: application/zip
 
