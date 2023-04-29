@@ -29,7 +29,7 @@ jobs:
 
       - name: Archive zip
         run: |
-          zip -r ./mh-dict-jp.zip $GITHUB_WORKSPACE/dict/mh-dict-jp.txt
+          zip -D ./mh-dict-jp.zip $GITHUB_WORKSPACE/dict/mh-dict-jp.txt
 
       - name: Create release
         id: create_release
