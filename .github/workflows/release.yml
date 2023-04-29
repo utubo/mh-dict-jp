@@ -27,9 +27,9 @@ jobs:
         with:
           nore-version: "16.x"
 
-      - name: Archive zip
+      - name: Create assets
         run: |
-          zip -j ./mh-dict-jp.zip $GITHUB_WORKSPACE/dict/mh-dict-jp.txt
+          sh ./build.sh
 
       - name: Create release
         id: create_release
@@ -43,14 +43,47 @@ jobs:
           draft: false
           prerelease: false
 
-      - name: Upload zip file
+      - name: Upload all
         id: upload-zip
         uses: actions/upload-release-asset@v1.0.1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./mh-dict-jp.zip
-          asset_name: mh-dict-jp.zip
+          asset_path: ./mh-dict-jp-all.txt
+          asset_name: mh-dict-jp-all.txt
+          asset_content_type: text/plain
+
+      - name: Upload mh-dict-jp-monster.zip
+        id: upload-zip
+        uses: actions/upload-release-asset@v1.0.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./mh-dict-jp-monster.zip
+          asset_name: mh-dict-jp-monster.zip
+          asset_content_type: application/zip
+
+      - name: Upload mh-dict-jp-item.zip
+        id: upload-zip
+        uses: actions/upload-release-asset@v1.0.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./mh-dict-jp-item.zip
+          asset_name: mh-dict-jp-item.zip
+          asset_content_type: application/zip
+
+      - name: Upload mh-dict-jp-skill.zip
+        id: upload-zip
+        uses: actions/upload-release-asset@v1.0.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./mh-dict-jp-skill.zip
+          asset_name: mh-dict-jp-skill.zip
           asset_content_type: application/zip
 

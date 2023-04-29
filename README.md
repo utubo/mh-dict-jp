@@ -6,7 +6,7 @@
 
 ## ユーザー辞書への追加の仕方
 ### Windows google日本語入力
-1. [mh-dict-jp.txt](https://raw.githubusercontent.com/utubo/mh-dict-jp/main/dict/mh-dict-jp.txt)をダウンロードしておく
+1. [ここ](https://github.com/utubo/mh-dict-jp/releases/latest)から`mh-dict-jp-all.txt`をダウンロードしておく
 2. Google日本語ん入力のメニューを表示する(タスクトレイの`A`とか`あ`とかを右クリック)
 3. 辞書ツール
 4. 管理
@@ -19,7 +19,7 @@
 
 ### Android google日本語入力
 *⚠削除は1単語ずつ行う必要があるため、一度追加すると取り消しが大変です。自己責任でお願いします。*
-1. [ここ](https://github.com/utubo/mh-dict-jp/releases/latest)から`mh-dict-jp.zip`をダウンロードしておく
+1. [ここ](https://github.com/utubo/mh-dict-jp/releases/latest)から`mh-dict-jp-○○.zip`をダウンロードしておく
 2. 適当な入力欄でキーボードを表示する
 3. 歯車マークをタップ
 4. 単語リスト
@@ -27,7 +27,7 @@
 6. 日本語
 7. 右上の`︙`をタップ
 8. インポート
-9. `mh-dic-jp.zip`を選択
+9. ダウンロードしたファイルを選択
 
 ## 編集時の辞書ルール
 - カタカナ表記、漢字表記(カタカナ読み)、漢字表記の3つを記載
