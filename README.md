@@ -5,8 +5,6 @@
 |mh-user-jp.txt|スラング(予定)|
 
 ## ユーザー辞書への追加の仕方
-### 共通
-
 ### Windows google日本語入力
 1. [mh-dict-jp.txt](https://raw.githubusercontent.com/utubo/mh-dict-jp/main/dict/mh-dict-jp.txt)をダウンロードしておく
 2. Google日本語ん入力のメニューを表示する(タスクトレイの`A`とか`あ`とかを右クリック)
@@ -29,7 +27,7 @@
 6. 日本語
 7. 右上の`︙`をタップ
 8. インポート
-9. `mh_dict_jp.txt`を選択
+9. `mh-dic-jp.zip`を選択
 
 ## 編集時の辞書ルール
 - カタカナ表記、漢字表記(カタカナ読み)、漢字表記の3つを記載
