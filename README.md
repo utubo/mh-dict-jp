@@ -8,6 +8,7 @@
 |mh-dict-jp-item.zip   |アイテム(Android用)  |
 |mh-dict-jp-monster.zip|モンスター(Android用)|
 |mh-dict-jp-skill.zip  |スキル(Android用)    |
+|mh-dict-jp-slang.zip  |スラング(予定)       |
 
 ※Androidは1ファイル2000件という制限があるのでファイルを分けています
 
