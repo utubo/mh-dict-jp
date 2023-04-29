@@ -1,8 +1,15 @@
 ## 辞書ファイル
-|ファイル名    |備考    |
-|--------------|--------|
-|[mh-dict-jp.txt](https://raw.githubusercontent.com/utubo/mh-dict-jp/main/dict/mh-dict-jp.txt)|公式単語|
-|mh-user-jp.txt|スラング(予定)|
+
+📕[ダウンロード](https://github.com/utubo/mh-dict-jp/releases/latest)
+
+|ファイル名            |備考               |
+|----------------------|-------------------|
+|mh-user-jp-all.txt    |全部入り(PC用)     |
+|mh-user-jp-item.zip   |アイテム(Android用)|
+|mh-user-jp-monster.zip|アイテム(Android用)|
+|mh-user-jp-skill.zip  |アイテム(Android用)|
+
+※Androidは1ファイル2000件という制限があるのでファイルを分けています
 
 ## ユーザー辞書への追加の仕方
 ### Windows google日本語入力
@@ -19,7 +26,7 @@
 
 ### Android google日本語入力
 *⚠削除は1単語ずつ行う必要があるため、一度追加すると取り消しが大変です。自己責任でお願いします。*
-1. [ここ](https://github.com/utubo/mh-dict-jp/releases/latest)から`mh-dict-jp-○○.zip`をダウンロードしておく
+1. [ここ](https://github.com/utubo/mh-dict-jp/releases/latest)から`mh-dict-jp-○○.zip`をダウンロードしておく(ZIPファイルのままでOK)
 2. 適当な入力欄でキーボードを表示する
 3. 歯車マークをタップ
 4. 単語リスト
@@ -27,7 +34,7 @@
 6. 日本語
 7. 右上の`︙`をタップ
 8. インポート
-9. ダウンロードしたファイルを選択
+9. ダウンロードしたZIPファイルを選択
 
 ## 編集時の辞書ルール
 - カタカナ表記、漢字表記(カタカナ読み)、漢字表記の3つを記載
