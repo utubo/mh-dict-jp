@@ -1,6 +1,6 @@
 #/usr/local/bin/bash
 mkdir -p .output
-SRC=./dict/*.txt
+SRC=./src/*.txt
 for f in $SRC; do
   OUTFILE=.output/`basename $f`
   grep --no-filename -e '^[^#].*' $f | sort -u > $OUTFILE
