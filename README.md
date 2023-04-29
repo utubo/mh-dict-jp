@@ -4,10 +4,10 @@
 
 |ファイル名            |備考                 |
 |----------------------|---------------------|
-|mh-user-jp-all.txt    |全部入り(PC用)       |
-|mh-user-jp-item.zip   |アイテム(Android用)  |
-|mh-user-jp-monster.zip|モンスター(Android用)|
-|mh-user-jp-skill.zip  |スキル(Android用)    |
+|mh-dict-jp-all.txt    |全部入り(PC用)       |
+|mh-dict-jp-item.zip   |アイテム(Android用)  |
+|mh-dict-jp-monster.zip|モンスター(Android用)|
+|mh-dict-jp-skill.zip  |スキル(Android用)    |
 
 ※Androidは1ファイル2000件という制限があるのでファイルを分けています
 
