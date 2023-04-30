@@ -43,47 +43,12 @@ jobs:
           draft: false
           prerelease: false
 
-      - name: Upload all
-        id: upload-all
-        uses: actions/upload-release-asset@v1.0.1
+      - name: Upload Release Assets
+        id: upload-release-assets
+        uses: dwenegar/upload-release-assets@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: .output/mh-dict-jp-all.txt
-          asset_name: mh-dict-jp-all.txt
-          asset_content_type: text/plain
-
-      - name: Upload mh-dict-jp-monster.zip
-        id: upload-mh-dict-jp-monster
-        uses: actions/upload-release-asset@v1.0.1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: .output/mh-dict-jp-monster.zip
-          asset_name: mh-dict-jp-monster.zip
-          asset_content_type: application/zip
-
-      - name: Upload mh-dict-jp-item.zip
-        id: upload-mh-dict-jp-item
-        uses: actions/upload-release-asset@v1.0.1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: .output/mh-dict-jp-item.zip
-          asset_name: mh-dict-jp-item.zip
-          asset_content_type: application/zip
-
-      - name: Upload mh-dict-jp-skill.zip
-        id: upload-mh-dict-jp-skill
-        uses: actions/upload-release-asset@v1.0.1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: .output/mh-dict-jp-skill.zip
-          asset_name: mh-dict-jp-skill.zip
-          asset_content_type: application/zip
+        run: |
+          release_id: ${{ steps.create_release.outputs.id }}
+          assets_path: .output
 
