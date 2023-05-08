@@ -8,6 +8,7 @@
 |mh-dict-jp-item.zip   |アイテム(Android用)  |
 |mh-dict-jp-monster.zip|モンスター(Android用)|
 |mh-dict-jp-skill.zip  |スキル(Android用)    |
+|mh-dict-jp-others.zip |その他(Android用)    |
 |mh-dict-jp-slang.zip  |スラング(予定)       |
 
 ※Androidは1ファイル2000件という制限があるのでファイルを分けています
@@ -56,7 +57,7 @@
   ```
   例
   草食竜
-  隻眼イャンガルルガ
+  隻眼イャンガルルガ # 「イャンガルルガ」は登録済みなので普通に変換できる「隻眼」は不要
   ```
 - こちらの環境で熟語を一発でまとめて変換できなかったときは合わせたものも記載
   ```
