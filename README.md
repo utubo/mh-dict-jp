@@ -11,7 +11,8 @@
 |mh-dict-jp-others.zip |その他(Android用)    |
 |mh-dict-jp-slang.zip  |スラング(Android用)  |
 
-※Androidは1ファイル2000件という制限があるのでファイルを分けています
+- Androidは1ファイル2000件という制限があるのでファイルを分けています
+- 更新日は[ここ](https://github.com/utubo/mh-dict-jp/tree/main/src)を参考に(ダウンロードはダウンロードページから)
 
 ## ユーザー辞書への追加の仕方
 ### Windows google日本語入力
@@ -37,6 +38,14 @@
 7. 右上の`︙`をタップ
 8. インポート
 9. ダウンロードしたZIPファイルを選択
+
+## 間違いや足りない単語を見つけた場合
+以下のいずれかに反応するかもしれません
+- Pull Request
+- [issue](https://github.com/utubo/mh-dict-jp/issues)にコメント
+- Twitterで連絡
+
+もし更新が止まったら誰かForkして…
 
 ## 編集時の辞書ルール
 - カタカナ表記、漢字表記(カタカナ読み)、漢字表記の3つを記載
