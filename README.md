@@ -12,7 +12,8 @@
 |mh-dict-jp-slang.zip  |スラング(Android用)  |
 
 - Androidは1ファイル2000件という制限があるのでファイルを分けています
-- 更新日は[ここ](https://github.com/utubo/mh-dict-jp/tree/main/src)を参考に(ダウンロードはダウンロードページから)
+- 更新日は[ここ](https://github.com/utubo/mh-dict-jp/tree/main/src)を参考に
+(ダウンロードは[ダウンロードページ](https://github.com/utubo/mh-dict-jp/releases/latest)から)
 
 ## ユーザー辞書への追加の仕方
 ### Windows google日本語入力
