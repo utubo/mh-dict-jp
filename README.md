@@ -2,14 +2,22 @@
 
 📕[ダウンロード](https://github.com/utubo/mh-dict-jp/releases/latest)
 
-|ファイル名            |備考                 |
-|----------------------|---------------------|
-|mh-dict-jp-all.txt    |全部入り(PC用)       |
-|mh-dict-jp-item.zip   |アイテム(Android用)  |
-|mh-dict-jp-monster.zip|モンスター(Android用)|
-|mh-dict-jp-skill.zip  |スキル(Android用)    |
-|mh-dict-jp-others.zip |その他(Android用)    |
-|mh-dict-jp-slang.zip  |スラング(Android用)  |
+- Windows用
+|ファイル名            |備考    |
+|----------------------|--------|
+|mh-dict-jp-all.txt    |全部入り|
+
+- Android用
+|ファイル名            |備考                  |
+|----------------------|----------------------|
+|mh-dict-jp-item.zip   |アイテム              |
+|mh-dict-jp-monster.zip|モンスター            |
+|mh-dict-jp-skill.zip  |スキル                |
+|mh-dict-jp-weapon1.zip|太刀,大剣,双剣        |
+|mh-dict-jp-weapon2.zip|(予定)槍,斧系,ハンマー|
+|mh-dict-jp-weapon3.zip|(予定)弓,銃,ガンランス,笛,その他|
+|mh-dict-jp-others.zip |その他                |
+|mh-dict-jp-slang.zip  |スラング              |
 
 - Androidは1ファイル2000件という制限があるのでファイルを分けています
 - 更新日は[ここ](https://github.com/utubo/mh-dict-jp/tree/main/src)を参考に
