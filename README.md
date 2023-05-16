@@ -15,7 +15,7 @@
 |mh-dict-jp-item.zip   |アイテム              |
 |mh-dict-jp-monster.zip|モンスター            |
 |mh-dict-jp-skill.zip  |スキル                |
-|mh-dict-jp-weapon1.zip|太刀,大剣,片手剣(予定: 双剣)|
+|mh-dict-jp-weapon1.zip|太刀,大剣,片手剣,双剣)|
 |mh-dict-jp-weapon2.zip|(予定: 槍系,斧系,鎚,ハンマー)|
 |mh-dict-jp-weapon3.zip|(予定: 弓系,笛,棍系,その他)|
 |mh-dict-jp-others.zip |その他                |
