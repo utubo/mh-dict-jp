@@ -17,7 +17,7 @@
 |mh-dict-jp-skill.zip  |スキル                |
 |mh-dict-jp-weapon1.zip|太刀,大剣,片手剣,双剣)|
 |mh-dict-jp-weapon2.zip|ハンマー(予定: 槍系,斧系)|
-|mh-dict-jp-weapon3.zip|(予定: 弓系,笛,棍系,鎚その他)|
+|mh-dict-jp-weapon3.zip|笛(予定: 弓系,棍系,鎚その他)|
 |mh-dict-jp-others.zip |その他                |
 |mh-dict-jp-slang.zip  |スラング              |
 
