@@ -18,7 +18,7 @@
 |mh-dict-jp-weapon1.zip  |太刀,大剣,片手剣,双剣 |
 |mh-dict-jp-weapon2.zip  |ハンマー,槍系(予定: 斧系)|
 |mh-dict-jp-weapon3.zip  |笛(予定: 弓系,棍系,鎚その他)|
-|mh-dict-jp-equipment.zip|(予定: 防具,装飾品,その他装備)|
+|mh-dict-jp-equipment.zip|防具(予定: 装飾品,その他装備)|
 |mh-dict-jp-others.zip   |その他                |
 |mh-dict-jp-slang.zip    |スラング              |
 
