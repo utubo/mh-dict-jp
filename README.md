@@ -1,6 +1,6 @@
 ## 辞書ファイル
 
-📕[ダウンロード](https://github.com/utubo/mh-dict-jp/releases/latest)
+📕[最新リリース配布ページ](https://github.com/utubo/mh-dict-jp/releases/latest)
 
 ### Windows用
 
@@ -23,12 +23,12 @@
 |mh-dict-jp-slang.zip    |スラング              |
 
 - Androidは1ファイル2000件という制限があるのでファイルを分けています
-- 更新日は[ここ](https://github.com/utubo/mh-dict-jp/tree/main/src)を参考に
-(ダウンロードは[ダウンロードページ](https://github.com/utubo/mh-dict-jp/releases/latest)から)
+- 更新日は[srcディレクトリ](https://github.com/utubo/mh-dict-jp/tree/main/src)を参考に
+(ダウンロードは[最新リリース配布ページ](https://github.com/utubo/mh-dict-jp/releases/latest)から)
 
 ## ユーザー辞書への追加の仕方
 ### Windows google日本語入力
-1. [ここ](https://github.com/utubo/mh-dict-jp/releases/latest)から`mh-dict-jp-all.txt`をダウンロードしておく
+1. [最新リリース配布ページ](https://github.com/utubo/mh-dict-jp/releases/latest)から`mh-dict-jp-all.txt`をダウンロードしておく
 2. Google日本語入力のメニューを表示する(タスクトレイの`A`とか`あ`とかを右クリック)
 3. 辞書ツール
 4. 管理
