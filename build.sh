@@ -10,4 +10,6 @@ for f in $SRC; do
 done
 # all
 grep --no-filename -e '^[^#].*' $SRC | sort -u > .output/mh-dict-jp-all.txt
+# skk
+node tsv2skk.js .output/mh-dict-jp-all.txt .output/SKK-JISYO.mh-dict-jp
 

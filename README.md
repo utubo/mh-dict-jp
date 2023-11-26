@@ -22,6 +22,12 @@
 |mh-dict-jp-others.zip   |その他                |
 |mh-dict-jp-slang.zip    |スラング              |
 
+### SKK辞書
+
+|ファイル名              |備考                  |
+|------------------------|----------------------|
+|SKK-JISYO.mh-dict-jp    |全部入り              |
+
 - Androidは1ファイル2000件という制限があるのでファイルを分けています
 - 更新日は[srcディレクトリ](https://github.com/utubo/mh-dict-jp/tree/main/src)を参考に
 (ダウンロードは[最新リリース配布ページ](https://github.com/utubo/mh-dict-jp/releases/latest)から)
