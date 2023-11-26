@@ -25,7 +25,7 @@ for (const l of fs.readFileSync(src, 'utf8').split(/\n/)) {
 const newLines = []
 for (const key in items) {
   const values = Array.from(new Set(items[key])).sort();
-  newLines.push(`${key}\t${values.join('/')}`);
+  newLines.push(`${key}	/${values.join('/')}/`);
 }
 fs.writeFileSync(dist, newLines.sort().join('\n'), 'utf8')
 
