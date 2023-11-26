@@ -4,23 +4,23 @@
 
 ### Windows用
 
-|ファイル名              |備考                  |
-|------------------------|----------------------|
-|mh-dict-jp-all.txt      |全部入り              |
+|ファイル名               |備考                  |
+|-------------------------|----------------------|
+|mh-dict-jp-all.txt       |全部入り              |
 
 ### Android用
 
-|ファイル名              |備考                  |
-|------------------------|----------------------|
-|mh-dict-jp-item.zip     |アイテム              |
-|mh-dict-jp-monster.zip  |モンスター            |
-|mh-dict-jp-skill.zip    |スキル                |
-|mh-dict-jp-weapon1.zip  |太刀,大剣,片手剣,双剣 |
-|mh-dict-jp-weapon2.zip  |ハンマー,槍系,斧系    |
-|mh-dict-jp-weapon3.zip  |笛,弓系,棍系,磁斬鎚   |
-|mh-dict-jp-equipment.zip|防具,装飾品           |
-|mh-dict-jp-others.zip   |その他                |
-|mh-dict-jp-slang.zip    |スラング              |
+|ファイル名               |備考                  |
+|-------------------------|----------------------|
+|mh-dict-jp-item.zip      |アイテム              |
+|mh-dict-jp-monster.zip   |モンスター            |
+|mh-dict-jp-skill.zip     |スキル                |
+|mh-dict-jp-weapon1.zip   |太刀,大剣,片手剣,双剣 |
+|mh-dict-jp-weapon2.zip   |ハンマー,槍系,斧系    |
+|mh-dict-jp-weapon3.zip   |笛,弓系,棍系,磁斬鎚   |
+|mh-dict-jp-equipment.zip |防具,装飾品           |
+|mh-dict-jp-others.zip    |その他                |
+|mh-dict-jp-slang.zip     |スラング              |
 
 - Androidは1ファイル2000件という制限があるのでファイルを分けています
 - 更新日は[srcディレクトリ](https://github.com/utubo/mh-dict-jp/tree/main/src)を参考に
@@ -28,9 +28,9 @@
 
 ### SKK辞書
 
-|ファイル名              |備考                  |
-|------------------------|----------------------|
-|SKK-JISYO.mh-dict-jp    |全部入り              |
+|ファイル名               |備考                  |
+|-------------------------|----------------------|
+|SKK-JISYO.mh-dict-jp.utf8|全部入り              |
 
 ## ユーザー辞書への追加の仕方
 ### Windows google日本語入力
