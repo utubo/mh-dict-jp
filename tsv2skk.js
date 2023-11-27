@@ -13,7 +13,7 @@ const dist = process.argv[3];
 const items = {}
 for (const l of fs.readFileSync(src, 'utf8').split(/\n/)) {
   const line = l.trim();
-  if (!line || line[0] === '#') continue;
+  if (!line || line.startsWith('#') || line.startsWith('//')) continue;
   const values = line.split('\t');
   const key = values[0];
   const value = values[1];
