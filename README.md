@@ -21,6 +21,7 @@
 |mh-dict-jp-equipment.zip |防具,装飾品           |
 |mh-dict-jp-others.zip    |その他                |
 |mh-dict-jp-slang.zip     |スラング              |
+|mh-dict-jp-wilds.zip     |Wilds追加分(作成中)   |
 
 - Androidは1ファイル2000件という制限があるのでファイルを分けています
 - 更新日は[srcディレクトリ](https://github.com/utubo/mh-dict-jp/tree/main/src)を参考に
